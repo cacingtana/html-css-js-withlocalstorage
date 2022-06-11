@@ -5,88 +5,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header -->
+    <header>
+      <div class="left">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="right">
+        <nav>
+          <!-- <ul>
+            <li><a>Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul> -->
+
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Beranda</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#tentang">Tentang</a>
+              <a href="#kontak">Kontak</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
     <div class="container">
-      <div class="header">
-        <div class="judul">
-          <div class="left">
-            <h3>MyWebsite</h3>
-          </div>
-          <div class="right">
-            <ul>
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Product</a></li>
-              <li><a>Services</a></li>
-              <li><a>Contact</a></li>
-            </ul>
-          </div>
-        </div>
+      <a href="#" class="profil"></a>
+      <div class="jumbotron">
+        <h3>I'm Junior Frontend Developer</h3>
+        <p>Stack : HTML, CSS and Javascript</p>
       </div>
 
-      <a href="https://www.facebook.com/cacingtana" class="facebook"></a>
-
-      <div class="hero">
-        <div class="headline">
-          <h3>Belajar HTML CSS</h3>
-        </div>
-
-        <div class="description">
-          <p>Tutorial Pak Sandika Galih</p>
-        </div>
-      </div>
-
-      <div class="main cf">
+      <main>
         <div class="content">
-          <h2>Judul Artikel</h2>
-          <p class="penulis">Di tulis oleh <a>Stevra Silvanus</a></p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-            magna in nibh tristique porttitor. Curabitur urna urna, convallis
-            non imperdiet ac, sodales ac ex. Morbi vel rutrum urna. Nulla leo
-            lorem, accumsan ut dolor et, finibus venenatis risus. Nam sed luctus
-            nisi. Phasellus tempus pulvinar elementum. Aenean sit amet ligula
-            dictum, pulvinar mauris sit amet, gravida sem. Donec non dignissim
-            turpis. Integer velit est, egestas eget mi sit amet, varius pharetra
-            orci. Aliquam tempor, leo eu viverra scelerisque, libero erat
-            pretium massa, eu eleifend nisi ligula in augue. Nunc id tellus
-            semper sem bibendum tincidunt. Nulla blandit egestas magna at
-            condimentum.
-          </p>
+          <h2>CALLIEL AZZARIA</h2>
+          <p class="posting">Posting : <a>15 Juni 2022</a></p>
 
-          <p>
-            Nam bibendum, enim a vestibulum vestibulum, metus nibh suscipit
-            urna, at ullamcorper orci enim ac quam. Proin commodo ligula vel
-            orci imperdiet malesuada. Nulla id cursus odio. Sed faucibus nibh
-            urna, elementum tristique metus laoreet sed. Fusce tincidunt odio et
-            elit porta sagittis. Nulla lacus lectus, euismod non enim eu,
-            consectetur dictum diam. Quisque eget placerat neque. Nunc posuere
-            facilisis eros, non pellentesque leo feugiat at. Phasellus imperdiet
-            a odio sed condimentum. Aenean non fermentum turpis. Suspendisse
-            vestibulum mauris commodo malesuada viverra. Sed id dolor quis risus
-            euismod fringilla sit amet et ante. Curabitur a gravida augue, et
-            faucibus turpis. Donec nec lacus consequat sapien euismod
-            sollicitudin efficitur quis nisl. Orci varius natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Curabitur
-            ornare hendrerit nisl, quis tempus odio posuere interdum.
-          </p>
+          <article id="tentang">
+            <p class="desc">
+              Hai, saya <strong>Calliel</strong> saya siswa dari dicoding
+              academy, saat ini saya sedang belajar menjadi junior front-end
+              developer yang berfokus pada pembuatan aplikasi yang indah dan
+              ramah pengguna sambil menulis kode yang bersih.
+            </p>
+            <p class="desc">
+              Saya sedang mengikuti beasiswa dari <em>IDCamp Indosat</em>, dan
+              memilih learning path React Developer
+            </p>
+          </article>
+
+          <article>
+            <p class="desc">Learning Path di kelas ini adalah :</p>
+          </article>
+
+          <article>
+            <div class="flex-container">
+              <div class="card">
+                <div class="learningpath_title">Buat Web Pertamamu di Sini</div>
+                <div class="learningpath_desc">
+                  Belajar dasar adalah langkah yang tidak boleh dilewatkan untuk
+                  mahir di bidang apa pun. Di sini, Anda akan belajar dasar dari
+                  HTML, CSS dan JavaScript. sebagai 3 pilar pembentuk website.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">Kuasai JavaScript</div>
+                <div class="learningpath_desc">
+                  Kuasai JavaScript sebagai bahasa pemrograman populer, mulai
+                  dari fundamental, sintaks dan fitur ES6, hingga konsep
+                  automation test menggunakan framework ternama.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">
+                  Buat Webmu Menjadi Interaktif
+                </div>
+                <div class="learningpath_desc">
+                  Seorang Front-End Web Developer harus mahir menggunakan
+                  JavaScript agar mampu membuat website yang interaktif. Di
+                  langkah ini, Anda akan belajar banyak tentang JavaScript untuk
+                  membuat websitemu menarik.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">Kenalan dengan React</div>
+                <div class="learningpath_desc">
+                  Setelah menguasai dasar Front-End Web, sekarang Anda akan
+                  mulai berkenalan dengan React di sini.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">Perdalam Fundamental React</div>
+                <div class="learningpath_desc">
+                  Pelajari seluruh fundamental React di sini, agar Anda dapat
+                  membangun aplikasi React yang lebih kompleks.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">
+                  Menjadi Expert dengan React
+                </div>
+                <div class="learningpath_desc">
+                  Mahir menjadi seorang React Developer dengan mempelajari
+                  teknik Automation Testing, Redux, Deployment dengan CI/CD,
+                  hingga mengetahui praktik terbaik yang ada.
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="sidebar">
-          <h3>tentang penulis</h3>
-          <img
-            src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-          />
-          <p class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et
-            magna in nibh tristique porttitor. Curabitur urna urna, convallis
-            non imperdiet ac, sodales ac ex. Morbi vel rutrum urna.
-          </p>
-        </div>
-      </div>
-      <div class="footer">
+        <aside>
+          <article id="kontak">
+            <h3>Profile</h3>
+            <table width="100%">
+              <tr>
+                <th>Nama</th>
+                <td>Calliel Azzaria</td>
+              </tr>
+              <tr>
+                <th>Jenis Kelamin</th>
+                <td>Laki-laki</td>
+              </tr>
+              <tr>
+                <th>Tempat Lahir</th>
+                <td>Maros</td>
+              </tr>
+              <tr>
+                <th>Tanggal Lahir</th>
+                <td>04 Oktober 2022</td>
+              </tr>
+              <tr>
+                <th>Alamat</th>
+                <td>Mutiara Kariango Blok C</td>
+              </tr>
+              <tr>
+                <th>Telp</th>
+                <td>1234 5678 901</td>
+              </tr>
+            </table>
+          </article>
+          <article>
+            <h3>Pendidikan</h3>
+            <table width="100%">
+              <tr>
+                <th>SMA</th>
+                <td>SMAN I Pamona Selatan</td>
+              </tr>
+              <tr>
+                <th>Universitas</th>
+                <td>Universitas Dipanegara</td>
+              </tr>
+            </table>
+          </article>
+        </aside>
+      </main>
+
+      <!-- Footer -->
+      <footer>
         <p class="copy">Belajar HTML CSS Dasar</p>
-      </div>
+        <p class="copy">
+          <a href="https://www.dicoding.com">Dicoding Academy</a>
+        </p>
+      </footer>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
