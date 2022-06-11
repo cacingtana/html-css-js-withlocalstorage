@@ -139,7 +139,7 @@ margin-bottom: 40px;
 }
 
 .jumbotron {
-    background-image: url(back.jpg);
+    background-image: url(assets/back.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,7 +243,7 @@ footer a {
     right: 520px;
 
     /* style */
-    background-image: url(caliel.jpg);
+    background-image: url(assets/caliel.jpg);
     object-fit: cover;
     object-position: center;
     display: inline-block;
@@ -275,7 +275,7 @@ footer a {
     .jumbotron {
         font-size: 10px;
         padding: 30px;
-        background-image: url(back.jpg);
+        background-image: url(assets/back.jpg);
         background-position: center;
         background-repeat: no-repeat;
         text-align: center;
