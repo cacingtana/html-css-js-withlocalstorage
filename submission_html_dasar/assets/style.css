@@ -26,7 +26,7 @@ header {
     align-items: center;
 
     /* style */
-    padding: 5px 80px 5px 80px;
+    padding: 5px 100px 5px 100px;
     background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     z-index: 999;
@@ -87,7 +87,7 @@ header {
 }
 
 .dropdown a:hover {
-    background-color: #ddd;
+    background-color: #22c1c3;
 }
 .show {
     display: block;
@@ -133,13 +133,13 @@ table tr td{
 
 /* Main */
 main {
-padding: 10px;
-margin-bottom: 40px;
+    padding: 10px;
+    margin-bottom: 80px;
 
 }
 
 .jumbotron {
-    background-image: url(assets/back.jpg);
+    background-image: url(back.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,10 +150,20 @@ margin-bottom: 40px;
     color: white;
     border-radius: 0px 0px 10px 10px;
 }
+
+.jumbotron h3 {
+    font-weight: 600;
+}
+
+.jumbotron p {
+    font-weight: 800;
+}
+
 .content {
     width: 60%;
     padding: 10px;
     float: left;
+    margin-bottom: 80px;
 }
 .content h2 {
     font-size: 28px;
@@ -167,7 +177,7 @@ margin-bottom: 40px;
     font-size: 1rem;
     text-align: justify;
 }
-.content p {
+.content > p {
     margin-bottom: 20px;
     font-size: 14px;
 }
@@ -239,11 +249,11 @@ footer a {
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 160px;
+    top: 170px;
     right: 520px;
 
     /* style */
-    background-image: url(assets/caliel.jpg);
+    background-image: url(caliel.jpg);
     object-fit: cover;
     object-position: center;
     display: inline-block;
@@ -275,7 +285,7 @@ footer a {
     .jumbotron {
         font-size: 10px;
         padding: 30px;
-        background-image: url(assets/back.jpg);
+        background-image: url(back.jpg);
         background-position: center;
         background-repeat: no-repeat;
         text-align: center;

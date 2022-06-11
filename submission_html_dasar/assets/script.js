@@ -1,5 +1,5 @@
 
-function myFunction() {
+function showMenu() {
   document.getElementById("dropdown").classList.toggle("show");
 }
 
