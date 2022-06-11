@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="left">
+        <h1>My Portfolio</h1>
+      </div>
+      <div class="right">
+        <nav>
+          <!-- <ul>
+            <li><a>Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul> -->
+
+          <div class="dropdown">
+            <button onclick="myFunction()" class="btn">Beranda</button>
+            <div id="dropdown" class="dropdown-content">
+              <a href="#tentang">Tentang</a>
+              <a href="#kontak">Kontak</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <div class="container">
+      <a href="#" class="profil"></a>
+      <div class="jumbotron">
+        <h3>I'm Junior Frontend Developer</h3>
+        <p>Stack : HTML, CSS and Javascript</p>
+      </div>
+
+      <main>
+        <div class="content">
+          <h2>CALLIEL AZZARIA</h2>
+          <p class="posting">Posting : <a>15 Juni 2022</a></p>
+
+          <article id="tentang">
+            <p class="desc">
+              Hai, saya <strong>Calliel</strong> saya siswa dari dicoding
+              academy, saat ini saya sedang belajar menjadi junior front-end
+              developer yang berfokus pada pembuatan aplikasi yang indah dan
+              ramah pengguna sambil menulis kode yang bersih.
+            </p>
+            <p class="desc">
+              Saya sedang mengikuti beasiswa dari <em>IDCamp Indosat</em>, dan
+              memilih learning path React Developer
+            </p>
+          </article>
+
+          <article>
+            <p class="desc">Learning Path di kelas ini adalah :</p>
+          </article>
+
+          <article>
+            <div class="flex-container">
+              <div class="card">
+                <div class="learningpath_title">Buat Web Pertamamu di Sini</div>
+                <div class="learningpath_desc">
+                  Belajar dasar adalah langkah yang tidak boleh dilewatkan untuk
+                  mahir di bidang apa pun. Di sini, Anda akan belajar dasar dari
+                  HTML, CSS dan JavaScript. sebagai 3 pilar pembentuk website.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">Kuasai JavaScript</div>
+                <div class="learningpath_desc">
+                  Kuasai JavaScript sebagai bahasa pemrograman populer, mulai
+                  dari fundamental, sintaks dan fitur ES6, hingga konsep
+                  automation test menggunakan framework ternama.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">
+                  Buat Webmu Menjadi Interaktif
+                </div>
+                <div class="learningpath_desc">
+                  Seorang Front-End Web Developer harus mahir menggunakan
+                  JavaScript agar mampu membuat website yang interaktif. Di
+                  langkah ini, Anda akan belajar banyak tentang JavaScript untuk
+                  membuat websitemu menarik.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">Kenalan dengan React</div>
+                <div class="learningpath_desc">
+                  Setelah menguasai dasar Front-End Web, sekarang Anda akan
+                  mulai berkenalan dengan React di sini.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">Perdalam Fundamental React</div>
+                <div class="learningpath_desc">
+                  Pelajari seluruh fundamental React di sini, agar Anda dapat
+                  membangun aplikasi React yang lebih kompleks.
+                </div>
+              </div>
+              <div class="card">
+                <div class="learningpath_title">
+                  Menjadi Expert dengan React
+                </div>
+                <div class="learningpath_desc">
+                  Mahir menjadi seorang React Developer dengan mempelajari
+                  teknik Automation Testing, Redux, Deployment dengan CI/CD,
+                  hingga mengetahui praktik terbaik yang ada.
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <aside>
+          <article id="kontak">
+            <h3>Profile</h3>
+            <table width="100%">
+              <tr>
+                <th>Nama</th>
+                <td>Calliel Azzaria</td>
+              </tr>
+              <tr>
+                <th>Jenis Kelamin</th>
+                <td>Laki-laki</td>
+              </tr>
+              <tr>
+                <th>Tempat Lahir</th>
+                <td>Maros</td>
+              </tr>
+              <tr>
+                <th>Tanggal Lahir</th>
+                <td>04 Oktober 2022</td>
+              </tr>
+              <tr>
+                <th>Alamat</th>
+                <td>Mutiara Kariango Blok C</td>
+              </tr>
+              <tr>
+                <th>Telp</th>
+                <td>1234 5678 901</td>
+              </tr>
+            </table>
+          </article>
+          <article>
+            <h3>Pendidikan</h3>
+            <table width="100%">
+              <tr>
+                <th>SMA</th>
+                <td>SMAN I Pamona Selatan</td>
+              </tr>
+              <tr>
+                <th>Universitas</th>
+                <td>Universitas Dipanegara</td>
+              </tr>
+            </table>
+          </article>
+        </aside>
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <p class="copy">Belajar HTML CSS Dasar</p>
+        <p class="copy">
+          <a href="https://www.dicoding.com">Dicoding Academy</a>
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
