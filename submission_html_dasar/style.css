@@ -42,23 +42,24 @@ header {
 
 /* Navigation */
 
-.dropbtn {
+.btn {
     font-family: 'Quicksand', sans-serif;
     background-color: #fdbb2d;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 18px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     border: none;
     cursor: pointer;
 }
-.dropbtn:hover,
-.dropbtn:focus {
+.btn:hover,
+.btn:focus {
     background-color: #fdbb2d;
 }
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: inline;
 }
 .dropdown-content {
     display: none;
@@ -97,7 +98,7 @@ header {
 /* Aside */
 aside {
     margin-bottom: 80px;
-    padding: 20px;
+    padding: 10px;
     float: right;
     width: 40%;
 }
@@ -132,9 +133,11 @@ table tr td{
 
 /* Main */
 main {
-padding: 20px;
-overflow: auto;
+padding: 10px;
+margin-bottom: 40px;
+
 }
+
 .jumbotron {
     background-image: url(back.jpg);
     background-position: center;
@@ -149,8 +152,7 @@ overflow: auto;
 }
 .content {
     width: 60%;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 10px;
     float: left;
 }
 .content h2 {
@@ -237,7 +239,7 @@ footer a {
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 180px;
+    top: 160px;
     right: 520px;
 
     /* style */
@@ -273,9 +275,9 @@ footer a {
     .jumbotron {
         font-size: 10px;
         padding: 30px;
-            background-image: url(back.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
+        background-image: url(back.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
         text-align: center;
         color: white;
         border-radius: 0px 0px 10px 10px;
@@ -291,7 +293,8 @@ footer a {
         border-radius: 3px;
         margin: 20px auto;
         width: 100%;
-        box-sizing: border-box;
+        overflow-y: scroll;
+
     }
     .card:hover {
         background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
